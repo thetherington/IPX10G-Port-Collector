@@ -25,7 +25,7 @@ class Plugin(InsitePlugin):
 
         for _, params in self.ipx.collect.items():
 
-            document = {"fields": params, "host": host, "name": "ipx"}
+            document = {"fields": params, "host": host, "name": "port"}
 
             documents.append(document)
 
